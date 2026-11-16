@@ -10,8 +10,8 @@ app.use(cors());
 const baseDatos = mysql2.createConnection(
    {
     host: "localhost",
-    user: "root",
-    password: "1212",
+    user: [USER],
+    password: [PASSWORD],
     database: "ReactJugadores"
    } 
 );
